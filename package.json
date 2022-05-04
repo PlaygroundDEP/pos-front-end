@@ -6,7 +6,11 @@
   "author": "BGT Nuwangi <thakshilanuwangi123@gmail.com>",
   "license": "MIT",
   "source": [
-    "src/index.html"
+    "src/index.html",
+    "src/manage-customers.html",
+    "src/manage-items.html",
+    "src/order-details.html",
+    "src/place-order.html"
   ],
   "scripts": {
     "start": "parcel",
@@ -17,6 +21,7 @@
     "parcel": "^2.5.0"
   },
   "dependencies": {
+    "@types/node": "^17.0.31",
     "admin-lte": "^3.2.0"
   }
 }
